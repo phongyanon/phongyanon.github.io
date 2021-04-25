@@ -1,0 +1,14 @@
+.todo-phone-size{
+    display: none;
+}
+@media screen and (max-width: 480px){
+    .todo-screen-size{
+        display: none;
+    }
+    .todo-phone-size{
+        display: block;
+    }
+    .image{
+        margin: 10px 0;
+    }
+}
